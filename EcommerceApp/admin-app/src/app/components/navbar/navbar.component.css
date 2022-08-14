@@ -1,0 +1,26 @@
+.bg-dark{
+    --bs-bg-opacity:1;
+    background-color: black !important;
+}
+
+.navbar-dark .navbar-brand {
+    /* color: #fff; */
+    color: #d1e7dd !important;
+    font-weight: 700;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #d1e7dd !important;
+    font-weight: 500;
+}
+
+.btn-outline-success {
+    color:#d1e7dd !important;
+    border-color: #d1e7dd !important;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color:grey;
+    border-color: grey;
+}
