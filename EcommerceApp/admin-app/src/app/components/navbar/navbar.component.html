@@ -1,68 +1,67 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">GoalKart</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  <div class="container-fluid">
+      <a class="navbar-brand" routerLink="">instaShop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/home">Home</a>
-          </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/countactus">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/orders">Orders</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/shipments">Shipments</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/payments">Payments</a>
-          </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Users
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/app/navbar/user-list">User list</a></li>
-              <li><a class="dropdown-item" href="/app/navbar/create/edit-user">Create/Edit User</a></li>
-              <li><a class="dropdown-item" href="/app/navbar/user-details">User Details</a></li>
-              
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Products
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Product Categories</a></li>
-              <li><a class="dropdown-item" href="#">Create/Edit Product</a></li>
-              <li><a class="dropdown-item">Product Details</a></li>
-              
-            </ul>
-          </li>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/aboutus">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/contactus">Contact us</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Users
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" routerLink="/users">Users list</a></li>
+                      <li><a class="dropdown-item" routerLink="/users/create">Users create</a></li>
+                      <li><a class="dropdown-item" routerLink="/users/view">Users details</a></li>
+                  </ul>
+              </li>
 
-        </ul>
-        <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Log In</a>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" routerLink="/products">Product list</a></li>
+                      <li><a class="dropdown-item" routerLink="/products/create">Product create</a></li>
+                      <li><a class="dropdown-item" routerLink="/products/view">Product details</a></li>
+                      <li><a class="dropdown-item" routerLink="/products/categories">Product categories</a></li>
+                  </ul>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#">Create Account</a>
+                  <a class="nav-link" routerLink="#">Orders</a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#">Logout</a>
+                  <a class="nav-link" routerLink="#">Shipments</a>
               </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="#">Payments</a>
+              </li>
+          </ul>
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/auth">Sign In</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="#">Logout</a>
+              </li>
+          </ul>
       </div>
-    </div>
-  </nav>
+  </div>
+</nav>

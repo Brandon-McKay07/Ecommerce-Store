@@ -21,9 +21,11 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { ShipmentsComponent } from './components/shipments/shipments.component';
 import { PaymentsComponent } from './components/payments/payments.component';
-import { UserListComponent } from './components/navbar/user-list/user-list.component';
+import { UserListComponent } from './components/users/user-list/user-list.component';
 import { EditUserComponent } from './components/navbar/create/edit-user/edit-user.component';
 import { UserDetailsComponent } from './components/navbar/user-details/user-details.component';
+import { CreateAccountComponent } from './components/create-account/create-account.component';
+import { LogoutComponent } from './components/logout/logout.component';
 
 
 @NgModule({
@@ -46,6 +48,10 @@ import { UserDetailsComponent } from './components/navbar/user-details/user-deta
     UserListComponent,
     EditUserComponent,
     UserDetailsComponent,
+    
+    CreateAccountComponent,
+    LogoutComponent,
+    
     
   ],
 
