@@ -17,6 +17,14 @@ import { FooterComponent } from './components/footer/footer.component';
 import { OrdersComponent } from './components/orders/orders.component';
 
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
+import { ShipmentsComponent } from './components/shipments/shipments.component';
+import { PaymentsComponent } from './components/payments/payments.component';
+import { UserListComponent } from './components/navbar/user-list/user-list.component';
+import { EditUserComponent } from './components/navbar/create/edit-user/edit-user.component';
+import { UserDetailsComponent } from './components/navbar/user-details/user-details.component';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +38,15 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     FooterComponent,
     OrdersComponent,
     AuthComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    AboutComponent,
+    ContactusComponent,
+    ShipmentsComponent,
+    PaymentsComponent,
+    UserListComponent,
+    EditUserComponent,
+    UserDetailsComponent,
+    
   ],
 
   
