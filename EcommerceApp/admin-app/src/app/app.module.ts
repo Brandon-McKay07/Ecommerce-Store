@@ -26,19 +26,20 @@ import { EditUserComponent } from './components/navbar/create/edit-user/edit-use
 import { UserDetailsComponent } from './components/navbar/user-details/user-details.component';
 import { CreateAccountComponent } from './components/create-account/create-account.component';
 import { LogoutComponent } from './components/logout/logout.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComponentsComponent,
+   
     HeaderComponent,
     NavbarComponent,
     SideNavbarComponent,
-    MainComponent,
+   
     HomeComponent,
     FooterComponent,
-    OrdersComponent,
+    
     AuthComponent,
     NotFoundComponent,
     AboutComponent,
@@ -58,6 +59,7 @@ import { LogoutComponent } from './components/logout/logout.component';
   
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     OrdersModule,
     UsersModule,

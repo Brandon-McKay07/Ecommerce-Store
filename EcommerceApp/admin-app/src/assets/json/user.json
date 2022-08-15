@@ -1,0 +1,91 @@
+[
+    {
+        "userId":1,
+        "username":"GodsSon",
+        "fullName":"Brandon McKay",
+        "address" :{
+            "street":"322 Gotham Lane",
+            "city":"Seattle",
+            "state": "WA",
+            "country":"US",
+            "pincode": 1400022
+        },
+        "email":"WebDev007@gmail.com",
+        "img":"",
+        "contact":"+615 228 7777"
+    }, 
+    {
+        "userId":2,
+        "username":"JediJohn",
+        "fullName":"John McKay",
+        "address" :{
+            "street":"300 QDog Ave.",
+            "city":"San Diego",
+            "state": "California",
+            "country":"US",
+            "pincode": 5566022
+        },
+        "email":"jjohn0gqdog@gmail.com",
+        "img":"",
+        "contact":"+672 345 2142"
+    }, 
+    {
+        "userId":3,
+        "username":"KrissWay",
+        "fullName":"Kristina McKay",
+        "address" :{
+            "street":"300 QDog Ave.",
+            "city":"San Diego",
+            "state": "California",
+            "country":"US",
+            "pincode": 8566022
+        },
+        "email":"queenkris@gmail.com",
+        "img":"",
+        "contact":"+652 132 2839"
+    },{
+        "userId":4,
+        "username":"Bryan",
+        "fullName":"Bryan McKay",
+        "address" :{
+            "street":"200 Williams Street",
+            "city":"Los Angeles",
+            "state": "California",
+            "country":"US",
+            "pincode": 8566022
+        },
+        "email":"bryan33@gmail.com",
+        "img":"",
+        "contact":"+614 225 7333"
+    }
+    ,{
+        "userId":5,
+        "username":"Alexi.m-a",
+        "fullName":"Alexandra McKay-Ali",
+        "address" :{
+            "street":"450 Paradise Ln.",
+            "city":"Miami",
+            "state": "Florida",
+            "country":"US",
+            "pincode": 8566022
+        },
+        "email":"aima@gmail.com",
+        "img":"",
+        "contact":"+652 231 5444"
+    },
+    {
+        "userId":6,
+        "username":"notZain@gain",
+        "fullName":" Zain Ali",
+        "address" :{
+            "street":"450 Paradise Ln.",
+            "city":"Miami",
+            "state": "Florida",
+            "country":"US",
+            "pincode": 8566022
+        },
+        "email":"bryan33@gmail.com",
+        "img":"",
+        "contact":"+642 325 1652"
+    }
+]
