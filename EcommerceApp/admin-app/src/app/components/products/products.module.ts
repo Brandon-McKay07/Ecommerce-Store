@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { ProductCategoryComponent } from './product-category/product-category.component';
 import { ProductCreateComponent } from './product-create/product-create.component';
 import { ProductsComponent } from './products.component';
@@ -14,7 +15,8 @@ import { CommonModule } from '@angular/common';
     ProductCategoryComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class ProductsModule { }
