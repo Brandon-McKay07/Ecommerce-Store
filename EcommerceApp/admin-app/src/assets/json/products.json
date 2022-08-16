@@ -1,55 +1,51 @@
 [
     {
         "productId": 1,
-        "productTitle": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-        "productDescription": "Easy upgrade for faster boot up, shutdown, application load and response",
+        "productTitle": "Apple iPhone 13 Pro Max",
+        "productDescription": "The biggest Pro camera system upgrade ever. Super Retina XDR display with ProMotion for a faster, more responsive feel.",
         "productCategory": {
           "categoryId": 1,
           "categoryName": "Electronics",
           "categoryDescription": "",
           "categoryImageUrl": "",
           "active": true,
-          "addedOn": "10 August 2020"
+          "addedOn": "10 August 2022"
         },
-        "productCode": "PRD-ELE-1054",
+        "productCode": "APL-IPN-1054",
         "images": [
-          "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX466_.jpg",
-          "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX679_.jpg",
-          "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX355_.jpg",
-          "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX522_.jpg",
-          "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX450_.jpg",
-          "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX425_.jpg",
-          "https://m.media-amazon.com/images/I/71J4Q8zM72L._SX569_.jpg"
+          "https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-13-pro-max-sierra-blue?hei=400",
+          "https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-13-pro-max-sierra-blue-front?hei=400",
+          "https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-13-pro-max-sierra-blue-style?hei=400",
+          "https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-13-pro-max-sierra-blue-detail?hei=400",
+          "https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-13-pro-max-sierra-blue-group?hei=400"
+          
         ],
         "thumbnailImage": 0,
-        "price": 300,
-        "addedOn": "30 November 2021",
+        "price": 1600,
+        "addedOn": "30 November 2022",
         "rating": 4
     }, {
         "productId": 2,
-        "productTitle": "HP DeskJet 2755e Wireless Color All-in-One Printer",
-        "productDescription": "Network-Ready, Decal-Printing, Cloud Print Enabled",
+        "productTitle": "PlayStation 5 Console",
+        "productDescription": "Enjoy smooth and fluid high frame rate gameplay at up to 120fps for compatible games, with support for 120Hz output on 4K displays.",
         "productCategory": {
           "categoryId": 1,
           "categoryName": "Electronics",
           "categoryDescription": "",
           "categoryImageUrl": "",
           "active": true,
-          "addedOn": "10 August 2020"
+          "addedOn": "10 August 2022"
         },
-        "productCode": "PRI-ELE-1054",
+        "productCode": "SNY-PLY-1054",
         "images": [
-          "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SX679_.jpg",
-          "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SL1500_.jpg",
-          "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SX679_.jpg",
-          "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SX569_.jpg",
-          "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SX569_.jpg",
-          "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SX569_.jpg",
-          "https://m.media-amazon.com/images/I/61UdeL7aO-L._AC_SX569_.jpg"
+          "https://target.scene7.com/is/image/Target/GUEST_ae4e8352-bcea-4dd7-97ad-13be08ec32fb?wid=325&hei=325&qlt=80&fmt=pjpeg",
+          "https://target.scene7.com/is/image/Target/GUEST_9c41d78f-1155-4069-ab97-e2cef0ade1df?wid=325&hei=325&qlt=80&fmt=pjpeg",
+          "https://target.scene7.com/is/image/Target/GUEST_2edf9c9c-090e-47cd-9de9-9a9fe1fa7f02?wid=325&hei=325&qlt=80&fmt=pjpeg"
+          
         ],
         "thumbnailImage": 0,
-        "price": 8900,
-        "addedOn": "01 November 2021",
+        "price": 600,
+        "addedOn": "01 November 2022",
         "rating": 4.5
     }
 ]

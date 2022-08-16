@@ -1,9 +1,11 @@
+import { ProductViewComponent } from './product-view/product-view.component';
+import { ProductCategoriesComponent } from './product-category/product-category.component';
 import { RouterModule } from '@angular/router';
-import { ProductCategoryComponent } from './product-category/product-category.component';
 import { ProductCreateComponent } from './product-create/product-create.component';
 import { ProductsComponent } from './products.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -11,12 +13,17 @@ import { CommonModule } from '@angular/common';
   declarations: [
     ProductsComponent,
     ProductCreateComponent,
+    ProductViewComponent,
+    ProductCategoriesComponent,
+    
    
-    ProductCategoryComponent,
+    
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    ReactiveFormsModule,
+   
   ]
 })
 export class ProductsModule { }

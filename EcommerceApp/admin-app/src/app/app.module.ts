@@ -1,6 +1,6 @@
 import { ProductsModule } from './components/products/products.module';
 import { UsersModule } from './components/users/users.module';
-import { OrdersModule } from './components/orders/orders.module';
+import { OrdersModule } from './components/order/orders.module';
 import { AuthComponent } from './components/auth/auth.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -14,7 +14,7 @@ import { SideNavbarComponent } from './components/side-navbar/side-navbar.compon
 import { MainComponent } from './components/main/main.component';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { OrdersComponent } from './components/orders/orders.component';
+
 
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { AboutComponent } from './components/about/about.component';
