@@ -21,10 +21,17 @@ export class ProductCategoriesComponent implements OnInit {
 
   constructor(private categoriesService:CategoriesService,  private modalService: NgbModal,  private fb:FormBuilder) { }
 
+  //the CategoryService call out is 'linking' the service file to this file, see above..
+
   ngOnInit(): void {
-    this.categoryObservable = this.categoriesService.getCategories();    
+    this.categoryObservable = this.categoriesService.getCategories(); 
+    //this returns an observable list from the called observable function above
+    //the function getcategories() is within the service files,
+    //it returns the information found in the json files.
+    
   }
 
+ 
   openProductCategoryDialog(modelRef:any, productCategoryObj = null) {
     // console.log(productCategoryObj);    
     this.initialForm(productCategoryObj);

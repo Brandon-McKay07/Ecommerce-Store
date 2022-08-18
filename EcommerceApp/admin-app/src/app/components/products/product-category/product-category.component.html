@@ -25,7 +25,8 @@
                             <th scope="col">Actions</th>
                           </tr>
                         </thead>
-                        <tbody>
+                        <!-- below *ngFor Calls the observable -->
+                        <tbody>         
                           <tr *ngFor="let cat of categoryObservable | async; index as idx">
                             <th scope="row">{{idx+1}}</th>
                             <td>{{cat["categoryName"]}}</td>
@@ -47,7 +48,7 @@
     </div>
 </div>
 
-<!-- add category model  -->
+
 <ng-template #prodCategoryModal let-modal class="bg-modal">
 
     <div class="modal-header">
@@ -84,7 +85,7 @@
                         <input ngbButton type="radio" class="btn-check" [value]="true" formControlName="active" name="active" >Active
                     </label>
                     <label ngbButtonLabel class="btn-primary btn-sm">
-                        <input ngbButton type="radio" class="btn-check" [value]="false" formControlName="active" name="active">Inactive
+                        <input ngbButton type="radio" class="btn-check" [value]="false" formControlName="active" name="active">In-Active
                     </label>
                     </div>
                 </div>

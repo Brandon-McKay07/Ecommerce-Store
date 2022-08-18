@@ -35,7 +35,10 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
     this.prodObservable = this.productService.getProducts();
     this.categoryObservable = this.categoriesService.getCategories();
-  }
+
+    //the functions getProducts(), and getCategories() are instide the service files.
+    //these functions call the data fromm the json files.
+    }
 
   openModal(modal: any, prd: Products | null = null) {
     this.tempImageFiles = []; 
