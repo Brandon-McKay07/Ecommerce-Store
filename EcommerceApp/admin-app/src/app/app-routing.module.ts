@@ -35,7 +35,10 @@ const routes: Routes = [
     { path :'create', component: UserCreateComponent },
     { path :'view', component: UserViewComponent },
   ]},
-  {path:'orders' , component: OrdersComponent}
+  {path:'orders' , component: OrdersComponent},
+  {path: 'shipments', component: ShipmentsComponent},
+  {path: 'payments', component: PaymentsComponent}
+
 ];
 
 @NgModule({
