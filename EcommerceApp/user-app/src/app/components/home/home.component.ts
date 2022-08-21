@@ -1,4 +1,4 @@
-import { ProductsService } from './../../../../../admin-app/src/app/services/products.service';
+import { ProductsService } from 'src/app/services/products.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -14,6 +14,7 @@ export class HomeComponent implements OnInit {
   constructor(private productSrv:ProductsService) { }
 
   ngOnInit(): void {
+    this.getProducts();
   }
 
 
