@@ -1,0 +1,54 @@
+<div class="container-fluid vh-100">
+    <div class="row" style="height: inherit;">
+        <div class="col-12 col-sm-6 d-flex flex-column justify-content-center align-items-start px-4" id="bg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+            <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
+          </svg>
+          
+            <h3 class="text-white  m-0 mb-1">instaShop</h3>
+            <p class="m-0 text-white h5">Welcome Back!</p>
+            <p class="m-0 text-white h5">instaShop's user portal</p>
+            <ul class="list-group mt-5 text-white" style="list-style-type: none; margin: 0; padding: 0;">
+              
+                <li>All systems go</li>
+                
+                <li>Log in to your account to shop around, view, or edit exsisting orders.</li>
+            </ul>
+        </div>
+        <div class="col-12 col-sm-6 d-flex flex-column justify-content-center align-items-center" >
+
+            <div class="card w-75 shadow-sm">
+                <div class="card-header bg-white border-0">
+                    <h3 class="text-center m-0">Login</h3>
+                  </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group col-12 mt-2">
+                          <label for="email">Email address</label>
+                          <input type="email" class="form-control" id="email"  autocomplete="off" aria-describedby="email" placeholder="eg: abc@example.com"
+                          required>
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group col-12 mt-2">
+                          <label for="password">Password</label>
+                          <input type="password" class="form-control" autocomplete="off" id="password" placeholder="Enter your password" required>
+                        </div>
+                        <br>
+                        <div class="form-group form-check mt-1">
+                          <input type="checkbox" class="form-check-input" id="remember" required>
+                          <label class="form-check-label" for="remember">Remember me</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a (click)="goTo('/register')" class="link ms-1">Sign Up Here</a>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary mt-1">Submit
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mb-2 bi bi-plugin" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 1 2.898 5.673c-.167-.121-.216-.406-.002-.62l1.8-1.8a3.5 3.5 0 0 0 4.572-.328l1.414-1.415a.5.5 0 0 0 0-.707l-.707-.707 1.559-1.563a.5.5 0 1 0-.708-.706l-1.559 1.562-1.414-1.414 1.56-1.562a.5.5 0 1 0-.707-.706l-1.56 1.56-.707-.706a.5.5 0 0 0-.707 0L5.318 5.975a3.5 3.5 0 0 0-.328 4.571l-1.8 1.8c-.58.58-.62 1.6.121 2.137A8 8 0 1 0 0 8a.5.5 0 0 0 1 0Z"/>
+                          </svg>
+                        </button>
+                      </form>
+                  </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  

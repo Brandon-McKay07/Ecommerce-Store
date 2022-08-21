@@ -5,18 +5,18 @@
 
 .navbar-dark .navbar-brand {
     /* color: #fff; */
-    color: #d1e7dd !important;
+    color: #cfe2ff !important;
     font-weight: 700;
 }
 
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #d1e7dd !important;
+    color: #cfe2ff !important;
     font-weight: 500;
 }
 
 .btn-outline-success {
-    color:#d1e7dd !important;
-    border-color: #d1e7dd !important;
+    color:#cfe2ff !important;
+    border-color: #cfe2ff !important;
 }
 
 .btn-outline-success:hover {
