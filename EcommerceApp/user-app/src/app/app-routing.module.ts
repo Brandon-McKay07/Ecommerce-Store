@@ -10,6 +10,7 @@ import { ViewComponent } from './components/products/view/view.component';
 import { WishlistComponent } from './components/products/wishlist/wishlist.component';
 import { RegisterComponent } from './components/auth/register/register.component';
 import { ProfileComponent } from './components/auth/profile/profile.component';
+import { OrdersComponent } from './components/orders/orders.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'/home', pathMatch:"full"},
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path:'login' , component:LoginComponent},
   {path:'register' , component:RegisterComponent},
   {path:'profile' , component:ProfileComponent},
+  {path:'orders' , component:OrdersComponent},
   {path:'change-password' , component:ChangePasswordComponent},
   {path:'products' , children: [
     { path :'', component: ProductsComponent },
