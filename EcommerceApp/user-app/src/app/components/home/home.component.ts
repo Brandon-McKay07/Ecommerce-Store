@@ -9,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   fetching: boolean = false;
-  products:any;
+  products:any[]=[];
+  wishlistProducts:any[] =[];
 
   constructor(private productSrv:ProductsService) { }
 
@@ -19,9 +20,14 @@ export class HomeComponent implements OnInit {
 
 
   getProducts() {
-    this.productSrv.getProducts().subscribe( {
-    next: (data)=> {  this.products = data},
-    error: (e)=> { console.log(e) }    
-  });
+    this.productSrv.getProducts();
+    this.productSrv.productsSub.subscribe(res=>{
+      if(res.length !==0 ) {
+        this.products = Object.assign([], res);
+        this.fetching = false;
+        console.log(this.products);
+      }
+    })
   }
+ 
 }
