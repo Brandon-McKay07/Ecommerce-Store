@@ -34,5 +34,8 @@ export class HomeComponent implements OnInit {
   addProductToWishlist(product:any){
     this.productSrv.addProductToWishlist(product);
   }
+  addProductToShoppingCart(product:any){
+    this.productSrv.addProductToShoppingCart(product);
+  }
  
 }

@@ -13,4 +13,8 @@ export class WishlistComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  removeProductFromWishlist(prdIdx:number){
+    let elements = this.db.wishlistProducts.splice(prdIdx, 1);
+    console.log(elements[0]['title'], "Product removed from wishlist");
+  }
 }
