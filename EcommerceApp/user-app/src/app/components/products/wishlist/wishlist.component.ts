@@ -1,3 +1,4 @@
+import { ProductsService } from 'src/app/services/products.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WishlistComponent implements OnInit {
 
-  constructor() { }
+  constructor(public db:ProductsService) { }
 
   ngOnInit(): void {
   }

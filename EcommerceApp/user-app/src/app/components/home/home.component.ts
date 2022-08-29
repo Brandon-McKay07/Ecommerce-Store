@@ -10,7 +10,8 @@ export class HomeComponent implements OnInit {
 
   fetching: boolean = false;
   products:any[]=[];
-  wishlistProducts:any[] =[];
+  cartProducts:any[]=[];
+  wishlistProducts:any[]=[];  
 
   constructor(private productSrv:ProductsService) { }
 
@@ -28,6 +29,10 @@ export class HomeComponent implements OnInit {
         console.log(this.products);
       }
     })
+  }
+
+  addProductToWishlist(product:any){
+    this.productSrv.addProductToWishlist(product);
   }
  
 }

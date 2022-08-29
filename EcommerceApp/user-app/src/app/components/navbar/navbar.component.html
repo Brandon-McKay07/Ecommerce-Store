@@ -24,6 +24,10 @@
   
               <li class="nav-item">
                   <a class="nav-link" routerLink="/products/wishlist">Wish List
+                    <span *ngIf="productSrv.wishlistProducts.length !==0" class="position-absolute top-2 start-10 translate-middle badge rounded-pill bg-primary">
+                        {{productSrv.wishlistProducts.length || 0}}
+
+                    </span>
                     
                     
                   </a>
