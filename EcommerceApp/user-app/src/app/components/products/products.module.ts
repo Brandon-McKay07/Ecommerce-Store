@@ -5,6 +5,7 @@ import { ViewComponent } from './view/view.component';
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 
 
@@ -14,6 +15,7 @@ import { CommonModule } from '@angular/common';
       ViewComponent,
       WishlistComponent,
       ShoppingCartComponent,
+      CheckoutComponent,
   ],
   imports: [
     CommonModule

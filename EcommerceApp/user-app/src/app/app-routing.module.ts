@@ -1,3 +1,4 @@
+import { CheckoutComponent } from './components/orders/checkout/checkout.component';
 import { NotFoundComponent } from './../../../admin-app/src/app/components/not-found/not-found.component';
 import { ShoppingCartComponent } from './components/products/shopping-cart/shopping-cart.component';
 import { NgModule, Component } from '@angular/core';
@@ -20,12 +21,16 @@ const routes: Routes = [
   {path:'profile' , component:ProfileComponent},
   {path:'orders' , component:OrdersComponent},
   {path:'change-password' , component:ChangePasswordComponent},
+  
+  
+  
+  
   {path:'products' , children: [
     { path :'', component: ProductsComponent },
-    { path :'cart', component: ShoppingCartComponent  },
-    { path :'checkout', component: ShoppingCartComponent },
+    {path:'shopping-cart' , component:ShoppingCartComponent},
+    { path :'checkout', component: CheckoutComponent },
     { path :'view', component: ViewComponent },
-    { path :'wish list', component: WishlistComponent },
+    { path :'wishlist', component: WishlistComponent },
   ]},
   {path:'**', component:NotFoundComponent}
 ];

@@ -1,3 +1,4 @@
+import { CheckoutComponent } from './components/orders/checkout/checkout.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { AuthModule } from './components/auth/auth.module';
@@ -26,6 +27,7 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     NotfoundComponent,
     OrdersComponent,
+    CheckoutComponent,
          
    
     
