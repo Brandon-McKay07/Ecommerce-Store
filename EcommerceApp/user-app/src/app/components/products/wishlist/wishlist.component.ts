@@ -17,4 +17,12 @@ export class WishlistComponent implements OnInit {
     let elements = this.db.wishlistProducts.splice(prdIdx, 1);
     console.log(elements[0]['title'], "Product removed from wishlist");
   }
+
+  addProductToShoppingCart(prd:any, removeBool:boolean, prdIdx:number){
+    this.db.addProductToShoppingCart(prd, removeBool, prdIdx);
+    this.removeProductFromWishlist(prdIdx);
+ 
+  }
 }
+
+

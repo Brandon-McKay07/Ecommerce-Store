@@ -30,11 +30,11 @@
                   </p>
                   <p class="card-text m-0 mb-3">
                     <span class="text-muted mr-2">Price:</span>
-                    <span class="font-weight-bold">{{ product["price"] | currency:'INR':'symbol' }}</span>
+                    <span class="font-weight-bold">{{ product["price"] | currency:'USD':'symbol' }}</span>
                   </p>
   
                   <div class="d-flex align-items-center">
-                    <button type="button" class="btn btn-sm btn-dark me-2" >Add to Cart</button>
+                    <button type="button" class="btn btn-sm btn-dark me-2" (click)="addProductToShoppingCart(product,true,idx )" >Add to Cart</button>
                     <button type="button" class="btn btn-sm btn-danger"(click)=" removeProductFromWishlist(idx )">Remove</button>
                   </div>
                 </div>

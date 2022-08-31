@@ -1,4 +1,4 @@
-import { CheckoutComponent } from './components/orders/checkout/checkout.component';
+import { CheckoutComponent } from './components/products/checkout/checkout.component';
 import { NotFoundComponent } from './../../../admin-app/src/app/components/not-found/not-found.component';
 import { ShoppingCartComponent } from './components/products/shopping-cart/shopping-cart.component';
 import { NgModule, Component } from '@angular/core';
